@@ -1,3 +1,6 @@
+%% Dimensionless Hutchinson Equation
+% We study here the dynamics and behavior of the non-dimensionalized
+% delayed differential equation (DDE) outlined in Beddington & May (1975),
 % equation 13. Analysis of dynamic behavior comes from equation 14.
 
 % The paper can be found here:
@@ -11,6 +14,7 @@ spacing = 0.01;
 
 %% Run model
 
+% Time
 tf = 80;
 t = linspace(1, tf, (tf - 1) / spacing);
 
